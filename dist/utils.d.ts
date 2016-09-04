@@ -1417,11 +1417,7 @@ declare module Utils {
 }
 declare module Utils {
     class Device {
-<<<<<<< HEAD
-        static GetPixelRatio(ctx: CanvasRenderingContext2D): number;
-=======
         static getPixelRatio(ctx: CanvasRenderingContext2D): number;
->>>>>>> utils/master
         static isTouch(): boolean;
     }
 }
@@ -1530,7 +1526,6 @@ declare module Utils {
 }
 declare module Utils {
     class Urls {
-<<<<<<< HEAD
         static GetHashParameter(key: string, doc?: Document): string;
         static SetHashParameter(key: string, value: any, doc?: Document): void;
         static SetUrlAfter(searchvalue: string, value: string, doc?: Document): void;
@@ -1540,15 +1535,5 @@ declare module Utils {
         static UpdateURIKeyValuePair(uriSegment: string, key: string, value: string): string;
         static GetUrlParts(url: string): any;
         static ConvertToRelativeUrl(url: string): string;
-=======
-        static getHashParameter(key: string, doc?: Document): string;
-        static setHashParameter(key: string, value: any, doc?: Document): void;
-        static getQuerystringParameter(key: string, w?: Window): string;
-        static getQuerystringParameterFromString(key: string, querystring: string): string;
-        static setQuerystringParameter(key: string, value: any, doc?: Document): void;
-        static updateURIKeyValuePair(uriSegment: string, key: string, value: string): string;
-        static getUrlParts(url: string): any;
-        static convertToRelativeUrl(url: string): string;
->>>>>>> utils/master
     }
 }
